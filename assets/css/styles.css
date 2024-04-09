@@ -1,0 +1,302 @@
+.anton {
+  font-family: "Anton", sans-serif;
+}
+.poppins-500 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.poppins-700 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.fs-50 {
+  font-size: 3.125rem;
+}
+.fs-14 {
+  font-size: 0.875rem;
+}
+.fs-17 {
+  font-size: 1.0625rem;
+}
+.fs-lg-18 {
+  font-size: 1.125rem;
+}
+.fs-20 {
+  font-size: 1.25rem;
+}
+.fs-23 {
+  font-size: 1.4375rem;
+}
+.fs-30 {
+  font-size: 1.875rem;
+}
+.fs-40 {
+  font-size: 2.5rem;
+}
+.pd-40 {
+  padding: 2.5rem;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.clr-pink {
+  color: #ee3c97;
+}
+.clr-violet {
+  color: #f900c4;
+}
+.clr-red {
+  color: #fe9ea6;
+}
+.h-45 {
+  height: 2.8125rem;
+}
+.h-50px {
+  height: 3.125rem;
+}
+.outline-none {
+  outline: none;
+}
+.border-none {
+  border: none;
+}
+.bg-violet {
+  background-color: #f900c4;
+}
+.bg-black {
+  background-color: #000000;
+}
+.width-150 {
+  width: 9.375rem;
+}
+nav {
+  background: url("../images/mobile_assets/mobile-navbar-bg.png") center/cover
+    no-repeat;
+  border-bottom: 5px solid #fe5e00;
+}
+.navbar__logo {
+  width: 40%;
+  height: 40%;
+}
+.herobanner__container {
+  background-image: url("../images/mobile_assets/hero-banner.png");
+  height: 26.25rem;
+  background-size: 160%;
+  background-position: center top 89px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.cta__container {
+  height: 700px;
+  background-image: url("../images/mobile_assets/cta-car.png");
+  background-repeat: no-repeat;
+  background-size: 155%;
+  background-position: center;
+  background-color: black;
+}
+.cta__buttons__container button {
+  outline: none;
+  border: none;
+  background-color: #ee3c97;
+  height: 3.125rem;
+}
+.packages__container {
+  padding: 3rem 1.5rem;
+}
+.deals__card__title {
+  height: 2.8125rem;
+  background-color: #ec07ce;
+}
+.deals__card__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+.deals__container {
+  padding: 0 10px 30px 10px;
+  background-image: url("../images/mobile_assets/deals.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right -16.5625rem top;
+}
+.toppicks__container {
+  background-image: url("../images/mobile_assets/top-picks.png");
+  background-repeat: no-repeat;
+  height: 46.875rem;
+}
+.rating img {
+  max-width: 1rem;
+}
+.btn--hasGradient {
+  background: linear-gradient(to bottom, yellow, orange);
+}
+.step__card {
+  padding: 0 1.875rem;
+}
+.steps__container {
+  background-image: url("../images/mobile_assets/3-step-package-bg.jpg");
+}
+footer {
+  background-image: url("../images/mobile_assets/Footer-BG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__socmed__icons__container img {
+  max-width: 2rem;
+}
+.stripclubimage__container {
+  position: relative;
+}
+.isHeartButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.isHeartButton img {
+  max-width: 32px;
+}
+.carousel-control-next {
+  right: -43px;
+}
+.carousel-control-prev {
+  left: -49px;
+}
+.isHiddenOnMobile {
+  display: none;
+}
+.navbar__links {
+  position: absolute;
+  left: 40%;
+  bottom: 60%;
+}
+.navbar__links a {
+  border-bottom: 5px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.navbar__links a:hover {
+  border-bottom: 5px solid white;
+}
+.floatHover {
+  transition: transform 0.3s ease-in-out;
+}
+.floatHover:hover {
+  transform: translateY(-5px);
+}
+.pink-darken-hover {
+  transition: background 0.3s ease-in-out;
+}
+.pink-darken-hover:hover {
+  background-color: #a72a6a;
+}
+.underline-hover {
+  border-bottom: 5px solid transparent;
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+.underline-hover:hover {
+  border-bottom: 5px solid white;
+}
+/* Desktop Responsive Styles */
+@media (min-width: 1024px) {
+  .herobanner__container {
+    background-image: url("../images/desktop_assets/hero-banner.jpg");
+    /* height: calc(100vh - 5.9375rem); */
+    height: 1250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cta__container {
+    background-image: url("../images/desktop_assets/Hero-CTA-BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 28.125rem;
+    display: grid;
+    align-items: center;
+    margin-top: -15.625rem;
+    position: relative;
+    z-index: 1;
+  }
+  .cta__secondColumn__container {
+    max-width: 40%;
+  }
+  .cta__buttons__container button {
+    width: 10.9375rem !important;
+  }
+  .fs-lg-60 {
+    font-size: 3.75rem;
+  }
+  .fs-lg-30 {
+    font-size: 1.875rem;
+  }
+  .deals__container {
+    height: 62.5rem;
+    background-image: url("../images/desktop_assets/Deals-bg.jpg");
+    background-position: center;
+    display: grid;
+    align-items: center;
+  }
+  .deals__card__grid {
+    max-width: 600px;
+  }
+  .mgb-lg-100 {
+    margin-bottom: 6.25rem !important;
+  }
+  .fs-lg-25 {
+    font-size: 1.5625rem;
+  }
+  .toppicks__container {
+    background: url("../images/desktop_assets/Top-picks-bg.jpg") no-repeat
+      center / cover;
+    height: auto;
+  }
+  .fit-content {
+    width: fit-content;
+  }
+  .pd-tb-120 {
+    padding: 120px 0 !important;
+  }
+  .mw-lg-500 {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .mw-lg-400 {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .isHiddenOnDesktop {
+    display: none;
+  }
+  .isHiddenOnMobile {
+    display: flex;
+  }
+  .pd-lg-120 {
+    padding: 7.5rem;
+  }
+  .pd-lg-lr-120 {
+    padding: 40px 7.5rem !important;
+  }
+  .navbar-brand {
+    margin-left: 15%;
+  }
+  .navbar__logo {
+    width: 80%;
+  }
+  nav {
+    background: url("../images/desktop_assets/bg-nav_copy.png") center/105%
+      no-repeat;
+    position: absolute;
+    top: 0;
+    height: 175px;
+    border-bottom: none;
+  }
+}
+/* End of Desktop Responsive Styles */
